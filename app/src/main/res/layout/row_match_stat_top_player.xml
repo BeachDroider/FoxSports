@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="@dimen/standard_padding"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/match_stat_top_player_row_height">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_top_player_a_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"/>
+
+        <TextView
+            android:id="@+id/tv_top_player_a_jumper_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"/>
+
+        <TextView
+            android:id="@+id/tv_top_player_a_position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"/>
+
+        <TextView
+            android:id="@+id/tv_top_player_a_stat_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_top_player_a_head_shot"
+        android:layout_width="@dimen/match_stat_top_player_head_shot"
+        android:layout_height="@dimen/match_stat_top_player_head_shot"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:id="@+id/iv_top_player_b_head_shot"
+        android:layout_width="@dimen/match_stat_top_player_head_shot"
+        android:layout_height="@dimen/match_stat_top_player_head_shot"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_top_player_b_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"/>
+
+        <TextView
+            android:id="@+id/tv_top_player_b_jumper_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"/>
+
+        <TextView
+            android:id="@+id/tv_top_player_b_position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"/>
+
+        <TextView
+            android:id="@+id/tv_top_player_b_stat_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"/>
+
+    </LinearLayout>
+
+</LinearLayout>
