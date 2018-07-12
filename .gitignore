@@ -8,5 +8,6 @@
 /build
 /captures
 .externalNativeBuild
-/app/api_keys.properties
+### uncomment the following to prevent key from committing
+# /app/api_keys.properties
 
